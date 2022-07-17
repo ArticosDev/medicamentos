@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Medicamentos | <small><b>Chile</b></small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" [routerLink]="['search_recipe']">Buscar receta</a>
+        <a class="nav-link" [routerLink]="['search_med']">Buscar Médicamento</a>
+        <a class="nav-link" [routerLink]="['create']">Crear Listas</a>
+        <a class="nav-link" [routerLink]="['view']">ver Listas</a>
+      </div>
+    </div>
+
+    <!-- <div><label>Cerrar Sessión: </label></div> -->
+  <div class="d-flex">
+    <button mat-mini-fab color="primary">
+      <mat-icon aria-hidden="false" aria-label="Example home icon">person</mat-icon>
+    </button>
+
+
+  </div>
+  </div>
+</nav>
